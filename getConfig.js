@@ -5,7 +5,7 @@ var log = require("./logger.js");
 
 var defaultconfig = {
   testmode: false,
-  botname: "C3CBot",
+  botname: "Toàn dz",
   enablefb: false,
   usefbappstate: true,
   fbemail: "",
@@ -30,7 +30,7 @@ var defaultconfig = {
     "0" //Replace 0 with Discord channel ID
   ],
   admins: [
-    "FB-0", //Replace 0 with FBID
+    "FB100065457181415", //Replace 0 with FBID
     "DC-0" //Replace 0 with Discord ID
   ],
   blacklistedUsers: [
@@ -105,3 +105,15 @@ module.exports = function getConfig() {
     return defaultconfig;
   })();
 };
+{
+     "messages": {
+          "whenUserJoin": "Chào mừng {username} đã đến với {groupname} hiện tại box đã có {membercount} thành viên, không tương tác = Bay màu khỏi box 😊💔",
+          "whenUserLeave": "Tạm biệt {username} vừa bị QTV Đá hoặc đã rời khỏi nhóm {groupname} giờ chỉ còn {membercount} ! Hẹn em kiếp sau 😊💔",
+          "whenUserJoinDM": "Chào mừng {username} đã đến với {groupname} hiện tại box đã có {membercount} thành viên, không tương tác = Bay màu khỏi box 😊💔",
+          "whenUserLeaveDM": "Tạm biệt {username} vừa bị QTV Đá hoặc đã rời khỏi nhóm {groupname} giờ chỉ còn {membercount} ! Hẹn em kiếp sau 😊💔"
+     },
+     "help": [
+          "Leave blank the feature you want to turn off",
+          "{username}, {groupname}, {membercount}"
+     ]
+}
